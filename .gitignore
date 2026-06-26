@@ -6,3 +6,7 @@ helpers/exit-status-0
 helpers/fd-perms
 helpers/list-fds
 helpers/timeout
+
+# Ignore built binary and debug symbol folders
+build/shell
+*.dSYM/
